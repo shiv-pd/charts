@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart-Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1>Enter the respective marks</h1>
+        <form class="inputs">
+
+            <p><label>Marathi: </label><input type="text" id="marathi"  class="input-content"/></p>
+            <p><label>English: </label><input type="text" id="english"  class="input-content"/></p>
+            <p><label>Science: </label><input type="text" id="science" class="input-content" /></p>
+            <p><label>Maths: </label><input type="text" id="maths" class="input-content" /></p>
+            <p><label>History: </label><input type="text" id="history" class="input-content" /></p>
+            <p><label>What type of chart do you want:  </label><input type="text" id="chart-type" class="input-content" /></p>
+            <button class="sub-btn">Submit</button>
+            <div id="results"></div>
+            
+        </form>
+    </section>
+<div class="chart-area" >
+                <canvas id="myChart"  aria-label="chart" role="img" > </canvas>
+            </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script src="script.js"></script>
+</html>
